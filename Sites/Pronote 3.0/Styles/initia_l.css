@@ -1,0 +1,182 @@
+@charset "utf8";
+*{
+    border: none;
+}
+
+#f_login{
+    display: block;
+    background-color: rgb(9, 61, 61);
+    color: white;
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0, 0.234);
+}
+#f_login input#pass,select#function,button{
+    box-shadow: 2px 2px rgba(66, 48, 48, 0.434);
+    padding: 5px;
+    width: 150px;
+    outline:none;
+    border: none;
+    margin-top: 10px;
+    background-color: rgb(226, 225, 225);
+    outline:none;
+}
+#vista-img-perfil{
+    width: 159px;
+    height: 100px;
+    border: 2px groove whitesmoke;
+    background-color: rgb(80, 202, 202);
+}
+#pass,#function{
+    border-radius: 10px;
+}
+#f_login input#pass:hover,select#function:hover,input#pass:focus,select#function:focus{
+    color: green;
+    background-color: white;
+}
+#f_login button{
+    font-weight: bold;
+    color: white;
+    background-color: teal;
+    cursor: pointer;
+}
+#f_login button:hover{
+    color: teal;
+    background-color: white;
+}
+p#criar-conta{
+    margin: auto;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+p#criar-conta:hover{
+    color:lightgreen;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    background-color: rgb(6, 100, 100);
+}
+#menu{
+    width: 20%;
+    border-right: 1px solid black;
+    background-color: rgb(3, 31, 31);
+}
+
+.item-menu{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;    
+    margin: auto;
+    cursor: pointer;
+    border: 3px groove white;
+}
+
+.item-menu:hover{
+    width: 60px;
+    height: 60px;
+    border: 3px groove rgb(122, 233, 122);
+}
+
+.img-item-menu{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#login-zone{
+    width: 80%;
+    padding: 20px;
+    font-size: 1.2em;
+    background-image: url("../Images/1646424599.jpg");
+    background-position: center center;
+}
+
+#fcadastro form{
+    margin: auto;
+}
+#fcadastro{
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    background-color: rgb(9, 61, 61);
+    box-shadow: 2px 2px 3px rgb(0, 0, 0, 0.234);
+    color:white;
+    width: 200px;
+    padding: 20px;
+    opacity: 100%;
+}
+#img, #nome, #email, #senha{
+    color: white;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    border-bottom: 3px solid white;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0, 0.234);
+    margin-top: 10px;            
+    padding: 5px;
+    width: 152px;
+}
+#img{
+    width: 152px;
+}
+#cd{
+    border: none;
+    background-color: white;
+    color: teal;
+}
+#cd{
+    border: none;
+    background-color: white;
+    color: teal;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 158px;
+    padding: 10px;
+}
+#cd:hover{
+    background-color:teal;
+    color: white;
+}
+#erro{
+    padding: 10px;
+    color: red;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: inset 2px 2px 3px rgb(0, 0, 0, 0.234);
+    opacity: 100%;
+}
+#sucesso{
+    padding: 10px;
+    color: green;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: inset 2px 2px 3px rgb(0, 0, 0, 0.234);
+    opacity: 100%;
+}
+#spin-login{
+    display: none;
+    padding: 10px;
+    color:white;
+    background-color: darkgreen;
+    text-align:center;
+    width: 120px;
+    position:absolute;
+    top:70%;
+    border-radius: 10px 0px;
+}
+#spin-login,span{
+    color: white;
+    font-weight: bolder;
+}
+#container_busca{
+    border: 1px solid black;
+}
+#menu{
+    background-color: rgb(3, 31, 31);
+}

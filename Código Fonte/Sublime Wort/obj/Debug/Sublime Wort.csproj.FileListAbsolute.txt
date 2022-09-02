@@ -1,0 +1,10 @@
+C:\Users\Thaise\source\repos\Projetos\C#\Sublime Wort\bin\Debug\Sublime Wort.exe.config
+C:\Users\Thaise\source\repos\Projetos\C#\Sublime Wort\bin\Debug\Sublime Wort.exe
+C:\Users\Thaise\source\repos\Projetos\C#\Sublime Wort\bin\Debug\Sublime Wort.pdb
+C:\Users\Thaise\source\repos\Projetos\C#\Sublime Wort\obj\Debug\Sublime Wort.csproj.AssemblyReference.cache
+C:\Users\Thaise\source\repos\Projetos\C#\Sublime Wort\obj\Debug\Sublime_Wort.Form1.resources
+C:\Users\Thaise\source\repos\Projetos\C#\Sublime Wort\obj\Debug\Sublime_Wort.Properties.Resources.resources
+C:\Users\Thaise\source\repos\Projetos\C#\Sublime Wort\obj\Debug\Sublime Wort.csproj.GenerateResource.cache
+C:\Users\Thaise\source\repos\Projetos\C#\Sublime Wort\obj\Debug\Sublime Wort.csproj.CoreCompileInputs.cache
+C:\Users\Thaise\source\repos\Projetos\C#\Sublime Wort\obj\Debug\Sublime Wort.exe
+C:\Users\Thaise\source\repos\Projetos\C#\Sublime Wort\obj\Debug\Sublime Wort.pdb

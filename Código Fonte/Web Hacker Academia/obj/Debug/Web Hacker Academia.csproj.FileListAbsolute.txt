@@ -1,0 +1,42 @@
+C:\Users\Thaise\source\repos\Projetos\C#\Web Hacker Academia\bin\Debug\Web Hacker Academia.exe.config
+C:\Users\Thaise\source\repos\Projetos\C#\Web Hacker Academia\bin\Debug\Web Hacker Academia.exe
+C:\Users\Thaise\source\repos\Projetos\C#\Web Hacker Academia\bin\Debug\Web Hacker Academia.pdb
+C:\Users\Thaise\source\repos\Projetos\C#\Web Hacker Academia\obj\Debug\Web Hacker Academia.csproj.AssemblyReference.cache
+C:\Users\Thaise\source\repos\Projetos\C#\Web Hacker Academia\obj\Debug\Web_Hacker_Academia.Form1.resources
+C:\Users\Thaise\source\repos\Projetos\C#\Web Hacker Academia\obj\Debug\Web_Hacker_Academia.Properties.Resources.resources
+C:\Users\Thaise\source\repos\Projetos\C#\Web Hacker Academia\obj\Debug\Web Hacker Academia.csproj.GenerateResource.cache
+C:\Users\Thaise\source\repos\Projetos\C#\Web Hacker Academia\obj\Debug\Web Hacker Academia.csproj.CoreCompileInputs.cache
+C:\Users\Thaise\source\repos\Projetos\C#\Web Hacker Academia\obj\Debug\Web Hacker Academia.exe
+C:\Users\Thaise\source\repos\Projetos\C#\Web Hacker Academia\obj\Debug\Web Hacker Academia.pdb
+C:\Users\Thaise\source\repos\Projetos\C#\Web Hacker Academia\bin\Debug\wh_academia.mdf
+C:\Users\Thaise\source\repos\Projetos\C#\Web Hacker Academia\bin\Debug\wh_academia_log.ldf
+C:\Users\Thaise\source\repos\Projetos\C#\Web Hacker Academia\obj\Debug\Web_Hacker_Academia.F_Login.resources
+C:\Users\Thaise\source\repos\Projetos\C#\Web Hacker Academia\obj\Debug\Web_Hacker_Academia.F_Cadastro.resources
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\bin\Debug\wh_academia.mdf
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\bin\Debug\wh_academia_log.ldf
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\bin\Debug\Web Hacker Academia.exe.config
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\bin\Debug\Web Hacker Academia.exe
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\bin\Debug\Web Hacker Academia.pdb
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\bin\Debug\MySql.Data.dll
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\bin\Debug\Google.Protobuf.dll
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\bin\Debug\ZstdNet.dll
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\bin\Debug\System.Memory.dll
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\bin\Debug\System.Buffers.dll
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\bin\Debug\MySql.Data.xml
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\obj\Debug\Web Hacker Academia.csproj.AssemblyReference.cache
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\obj\Debug\Web Hacker Academia.exe.config
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\obj\Debug\Web_Hacker_Academia.Form1.resources
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\obj\Debug\Web_Hacker_Academia.F_Cadastro.resources
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\obj\Debug\Web_Hacker_Academia.F_Login.resources
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\obj\Debug\Web_Hacker_Academia.Properties.Resources.resources
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\obj\Debug\Web Hacker Academia.csproj.GenerateResource.cache
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\obj\Debug\Web Hacker Academia.csproj.CoreCompileInputs.cache
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\obj\Debug\Web Hacker Academia.exe
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\obj\Debug\Web Hacker Academia.pdb
+C:\Users\Thaise\source\repos\Projetos\Código Fonte\Web Hacker Academia\obj\Debug\Web_Hacker_Academia.F_GestaoUsers.resources

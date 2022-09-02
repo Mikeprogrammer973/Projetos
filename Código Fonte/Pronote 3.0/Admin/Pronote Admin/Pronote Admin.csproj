@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CF01A34E-7DED-41A0-B73E-BDCE1E87B14E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Pronote_Admin</RootNamespace>
+    <AssemblyName>Pronote Admin</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.28.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs" />
+    <Compile Include="Banco.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Alunos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Alunos.Designer.cs">
+      <DependentUpon>F_Alunos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Cadastrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Cadastrar.Designer.cs">
+      <DependentUpon>F_Cadastrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Estatistiques.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Estatistiques.Designer.cs">
+      <DependentUpon>F_Estatistiques.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Gerenciador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Gerenciador.Designer.cs">
+      <DependentUpon>F_Gerenciador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Login.Designer.cs">
+      <DependentUpon>F_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_NovaEscola.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_NovaEscola.Designer.cs">
+      <DependentUpon>F_NovaEscola.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_NovaTurma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_NovaTurma.Designer.cs">
+      <DependentUpon>F_NovaTurma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_NovoAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_NovoAluno.Designer.cs">
+      <DependentUpon>F_NovoAluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_NovoProf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_NovoProf.Designer.cs">
+      <DependentUpon>F_NovoProf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Profs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Profs.Designer.cs">
+      <DependentUpon>F_Profs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Recuperar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Recuperar.Designer.cs">
+      <DependentUpon>F_Recuperar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Transfert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Transfert.Designer.cs">
+      <DependentUpon>F_Transfert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Turmas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Turmas.Designer.cs">
+      <DependentUpon>F_Turmas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Alunos.resx">
+      <DependentUpon>F_Alunos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Cadastrar.resx">
+      <DependentUpon>F_Cadastrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Estatistiques.resx">
+      <DependentUpon>F_Estatistiques.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Gerenciador.resx">
+      <DependentUpon>F_Gerenciador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Login.resx">
+      <DependentUpon>F_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_NovaEscola.resx">
+      <DependentUpon>F_NovaEscola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_NovaTurma.resx">
+      <DependentUpon>F_NovaTurma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_NovoAluno.resx">
+      <DependentUpon>F_NovoAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_NovoProf.resx">
+      <DependentUpon>F_NovoProf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Profs.resx">
+      <DependentUpon>F_Profs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Recuperar.resx">
+      <DependentUpon>F_Recuperar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Transfert.resx">
+      <DependentUpon>F_Transfert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Turmas.resx">
+      <DependentUpon>F_Turmas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\desenho.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\loading_001.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\loading_002.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\loading_003.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

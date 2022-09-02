@@ -1,0 +1,207 @@
+@charset "utf8";
+
+#img_init{
+    width: 100%;
+}
+
+*{
+    border:none;
+}
+
+/*  Menus  */
+.img-menu-item{
+    width: 100%;
+    height:100%;
+    border-radius:50%;
+    border: none;
+}
+.gerencia-menu-item_round,.menu-item_round{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
+    border:3px groove white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+.gerencia-menu-item_round:hover,.menu-item_round:hover{
+    width: 60px;
+    height: 60px;
+}
+
+#gerencia,main{
+    display: flex;
+    flex-wrap: wrap;
+}
+#menu_gerencia{
+    border-left:1px solid black;
+}
+#menu_main{
+    border-right:1px solid black;
+}
+#menu_gerencia,#menu_main{
+    width: 20%;
+    background-color: rgb(3, 31, 31);
+}
+#form_gerencia,#gerencia{
+    width: 80%;
+}
+#form_gerencia{
+    width:100%;
+}
+#menu_gerencia{
+    display:none;
+}
+#gerencia{
+    padding: 10px;
+}
+main{
+    border-right:1px solid black;
+    border-left:1px solid black;
+    border-top:1px solid black;
+}
+
+/* Omitir os Forms */
+#f_home{
+    display:none;
+}
+.add{
+    display:none;
+    padding: 10px;
+    background-color: rgb(11, 61, 61);
+    color: white;
+    box-shadow:2px 2px 5px rgb(0, 0, 0, 0.234);
+    width:200px;
+    border-radius: 10px 0px;
+}
+.add input{
+    width: 150px;
+    padding: 5px;
+    border:none;
+    outline:none;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow:2px 2px 5px rgb(0, 0, 0, 0.334);
+    background-color: whitesmoke;
+    color: rgb(11, 61, 61);
+}
+.add input:focus,input:hover{
+    background-color: white;
+    color: green;
+}
+.btn-add{
+    background-color: white;
+    color: teal;
+    width: 150px;
+    padding: 5px;
+    border:none;
+    outline:none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    box-shadow:2px 2px 5px rgb(0, 0, 0, 0.334);
+}
+.btn-add:hover{
+    background-color: teal;
+    color: white;
+    font-weight: bolder;
+}
+.img-vista{
+    width:150px;
+    height:100px;
+    border: 2px groove white;
+}
+#f_escolas{
+    display:none;
+    padding: 20px 20px 40px 20px;
+    margin: auto;
+    width: 90%;
+    background-color: rgb(9, 61, 61);
+    border-radius: 20px 5px;
+    color: white;
+    font-size: 1.1em;
+}
+
+/* Form Escolas */
+
+#f_escolas{
+    padding:auto;
+}
+.portada{
+    display:flex;
+    flex-wrap: wrap;
+    height: 100px;
+}
+.show{
+    width: 20px;
+    height:20px;
+    padding: 3px;
+    font-weight: bold;
+    margin-left:5px;
+    background-color: teal;
+    color:white;
+    text-align:center;
+    cursor: pointer;
+    border-radius: 50%;
+    outline:none;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.134);
+}
+.show:hover{
+    color:teal;
+    background-color: white;
+    width: 25px;
+    height:25px;
+}
+.titulo-portada{
+    margin-top:5px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font: bolder 1.2em monospace;
+    background-color: green;
+    color: whitesmoke;
+}
+.titulo-portada:hover{
+    background-color: whitesmoke;
+    color: green;
+}
+.img-portada{
+    width:100%;
+    height:100%;
+}
+.info{
+    display:none;
+    margin:20px;
+}
+#f_escolas input{
+    margin-top:10px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.234);
+}
+label{
+    font-weight: bolder;
+}
+#f_escolas > div{
+    width: 150px;    
+    margin: auto;
+}
+div.controle{
+    text-align: center;
+    background-color: darkgreen;
+    color:white;
+}
+.anterior,.status,.proximo{
+    padding: 10px;
+    font: bold 1.2em monospace;
+}
+.anterior:hover,.proximo:hover{   
+    cursor:pointer;
+    background-color: white;
+    color:teal;
+    font-weight: bolder;
+}
